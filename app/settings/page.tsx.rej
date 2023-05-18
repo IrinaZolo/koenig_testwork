@@ -1,0 +1,7 @@
+diff a/app/settings/page.tsx b/app/settings/page.tsx	(rejected hunks)
+@@ -18,3 +18,4 @@
+     </Container>
+   );
+\ No newline at end of file
++}
+ 
