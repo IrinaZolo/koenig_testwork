@@ -8,9 +8,7 @@ const Container = styled.main`
 `
 
 
-export default function Wallets() {
-
-
+export default function Page() {
 
   return (
     <Container>

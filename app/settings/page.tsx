@@ -9,7 +9,7 @@ const Container = styled.main`
 `
 
 
-export default function Settings() {
+export default function Page() {
 
   return (
     <Container>
