@@ -1,3 +1,4 @@
+'use client'
 import styled from 'styled-components';
 import Block from '@/components/Block';
 import ImgFormat from '../assets/format.svg'
