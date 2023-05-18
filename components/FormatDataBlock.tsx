@@ -18,25 +18,14 @@ const DateNow = styled.h2`
 `
 
 const FormatDataBlock = () => {
-    // @ts-ignore 
-    const timeFormatInit = JSON.parse(window.localStorage.getItem('timeFormat')) || timeFormats[0].name
-    // @ts-ignore
-    const dataFormatInit = JSON.parse(window.localStorage.getItem('dataFormat')) || dataFormats[0].name
 
-    const [timeFormat, setTimeFormat] = useState(timeFormatInit)
-    const [dataFormat, setDataFormat] = useState(dataFormatInit)
+    const [timeFormat, setTimeFormat] = useState(timeFormats[0].name)
+    const [dataFormat, setDataFormat] = useState(dataFormats[0].name)
+
     const [date, setDate] = useState('')
 
     // хук для приведения даты и времени к выставленным форматам и обновлением каждую секунду
     useDate({timeFormat, dataFormat, date, setDate})
-
-    useEffect(() => {
-      window.localStorage.setItem('timeFormat', JSON.stringify(timeFormat))
-    }, [timeFormat])
-
-    useEffect(() => {
-      window.localStorage.setItem('dataFormat', JSON.stringify(dataFormat))
-    }, [dataFormat])
 
 
   return (

@@ -16,7 +16,7 @@ const Image = styled.img`
 `
 
 
-export default function Page() {
+export default function Home() {
 
   const mainImg: string = new URL('../assets/mainImg.jpg', import.meta.url).href
 
