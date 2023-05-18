@@ -10,7 +10,6 @@ const Container = styled.main`
 
 
 export default function Page() {
-
   return (
     <Container>
       <h1>Settings</h1>
@@ -19,3 +18,4 @@ export default function Page() {
     </Container>
   );
 }
+
