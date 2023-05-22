@@ -4,6 +4,7 @@ import ImgWallet from '../assets/wallet.svg'
 import InputElement from '@/components/InputElement';
 import { useState } from 'react';
 import BalanceElement from './BalanceElement';
+import { dataBalance } from '@/data';
 
 const Form =styled.form`
     display: flex;
@@ -17,7 +18,7 @@ const WalletBlock = () => {
     const [phone, setPhone] = useState('')
 
   return (
-    <Block img={ImgWallet} title={"Wallet"} blockHeight='416px'>
+    <Block img={ImgWallet} title={`Wallet ${dataBalance.user}`} blockHeight='416px'>
         <Form action="" onClick={e => e.preventDefault}>
             <BalanceElement />
             <InputElement 
