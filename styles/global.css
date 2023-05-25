@@ -15,14 +15,14 @@
 body {
   display: flex;
 	flex-direction: column;
-  height: 100vh;
 }
 
 main {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   display: flex;
   flex-direction: column;
   padding: 35px 0;
+  min-height: calc(100vh - 103px - 124px);
 }
 
 a, button {

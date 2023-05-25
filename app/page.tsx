@@ -9,10 +9,9 @@ const Title = styled.h1`
   padding: 0 141px;
 `
 const Image = styled.img`
-  width: 100vw;
   object-position: top;
   object-fit: cover ;
-  max-height: 50vh;
+  max-height: 45vh;
 `
 
 

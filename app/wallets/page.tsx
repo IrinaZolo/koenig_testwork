@@ -1,6 +1,6 @@
 'use client'
 import styled from 'styled-components';
-import WalletBlock from '@/components/WalletBlock';
+import WalletBlock from '@/components/WalletBlock/WalletBlock';
 
 const Container = styled.main`
   gap: 35px;

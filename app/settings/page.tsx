@@ -1,7 +1,7 @@
 'use client'
 import styled from 'styled-components';
-import AccountBlock from '@/components/AccountBlock';
-import FormatDataBlock from '@/components/FormatDataBlock';
+import AccountBlock from '@/components/AccountBlock/AccountBlock';
+import FormatDataBlock from '@/components/FormatDataBlock/FormatDataBlock';
 
 const Container = styled.main`
   gap: 30px;

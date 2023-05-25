@@ -1,6 +1,6 @@
 import StyledComponentsRegistry from './lib/registry';
-import Navigate from '@/components/Navigate';
-import Footer from '@/components/Footer'
+import Navigate from '@/components/Navigate/Navigate';
+import Footer from '@/components/Footer/Footer'
 import '../styles/global.css'
 
 export const metadata = {
